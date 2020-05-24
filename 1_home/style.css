@@ -1,0 +1,179 @@
+*{
+	transition:all 0.7s ease
+}
+header{
+	background:#242424
+}
+.logo{
+	font-size:26px;
+	color:#57c5a0;
+	font-family:STHeiti-Medium
+}
+.hed-1 i,.hed-2 span{
+	color:#7e7e7e
+}
+.font-11{
+	font-size:11px
+}
+.arial-r{
+	font-family:ArialR
+}
+.font-16{
+	font-size:16px
+}
+.wrap2{
+	background:#ebeae5;
+}
+.font-13{
+	font-size:13px;
+}
+.arial-b{
+	font-family:arial_bold
+}
+.font-40{
+	font-size:40px;
+}
+.arial-l{
+	font-family:Arial-Light
+}
+.font-20{
+	font-size:20px
+}
+.wrap2 .icons i:hover{
+	color:#57c5a0
+}
+.wrap3{
+	background:#2e2e2e
+}
+.wrap3 .pink{
+	border-top:4px solid #000;
+}
+.wrap3 .pink:hover{
+	border-color:#57c5a0;
+}
+#aaa{
+	color:#acacac
+}
+.font-18{
+	font-size:18px;
+}
+.font-12{
+	font-size:12px
+}
+.wrap4{
+	background:#242424;
+}
+.font-25{
+	font-size:25px
+}
+.arrivals{
+	color:#242424
+}
+.nk1{
+	margin-top:30px;
+	width:100%
+}
+#nk1-div{
+	padding-bottom:200px
+}
+.on-img{
+    background-color: rgba(0,0,0,0.7);
+    margin-top: -133px;
+    position: relative;
+}
+.wrap5{
+	background:#ebe7df
+}
+.shoes{
+	position:relative
+}
+.wrap5 .shoes-span{
+	background: #57c5a0;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    padding: 35px 20px;
+}
+.shoes:hover .even{
+	opacity:0
+}
+.shoes .shoes-hover{
+	opacity:0;
+	position:absolute;
+	bottom:10px;
+	right:18%
+}
+.shoes:hover .shoes-hover{
+	opacity:1
+}
+.shoes .icons{
+	color: #7e7e7e;
+}
+.shoes.icons:hover{
+	color:#57c5a0
+}
+.wrap5 .on-sale{
+	background:#000;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 35px 20px;
+	color:#fff
+}
+.wrap5 .out-of{
+	background: #f27e4b;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 35px 20px;
+	color:#fff
+}
+.wrap5 .divider-top{
+	margin-top:35px
+}
+.wrap7-mej1{
+	background:#dfdbd4;
+}
+.wrap7-mej1 .april{
+	background:#57c5a0;
+	color:#fff;
+	padding:20px
+}
+.wrap8,.wrap9{
+	background:#242424
+}
+.font-14{
+	font-size:14px;
+}
+.widget,.widget-txt{
+	color:#7d7d7d
+}
+.arial-i{
+	font-family:arial_italic
+}
+.widget-txt span{
+	color:#57c5a0
+}
+footer{
+	background:#2e2e2e
+}
+@font-face{
+	font-family:STHeiti-Medium;
+	src:url(./fonts/STHeiti-Medium.ttc)
+}
+@font-face{
+	font-family:ArialR;
+	src:url(./fonts/ofont.ru_Arial.ttf)
+}
+@font-face{
+	font-family:arial_bold;
+	src:url(./fonts/arial_bold.ttf)
+}
+@font-face{
+	font-family:Arial-Light;
+	src:url(./fonts/Arial-Light.ttf)
+}
+@font-face{
+	font-family:arial_italic;
+	src:url(./fonts/arial_italic.ttf)
+}

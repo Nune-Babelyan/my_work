@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(./photo/bg.png);
+	    background-size: cover;
+}
+header{
+	padding-top: 50px
+}
+
+.cc{
+	position: relative;
+}
+.cc .face{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cc .face1{
+	top: 90px;
+	left: 0;
+	transition-property: left, z-index, transform;
+	transition-delay: 0s, .5s, .5s;
+	transition-duration: .5s, 0s, .5s;
+	z-index: 2;
+	transform: translate(-20px, -20px);
+}
+.cc:hover .face1{
+	transition-property: transform, z-index, left;
+	transition-delay: 0s, .5s, .5s;
+	transition-duration: .5s, 0s, .5s;
+	transform: translate(170px, -10px);
+	z-index: 1;
+	left: -160px;
+}
+.cc .face2{
+	background: #111;
+	top: 30px;
+	left: 0;
+	transition-property: left, z-index, transform;
+	transition-delay: 0s, .5s, .5s;
+	transition-duration: .5s, 0s, .5s;
+	z-index: 1;
+	transform: translate(-10px, -10px);
+}
+.cc:hover .face2{
+	transition-property: transform, z-index, left;
+	transition-delay: 0s, .5s, .5s;
+	transition-duration: .5s, 0s, .5s;
+	transform: translate(-160px, -10px);
+	z-index: 1;
+	left: 160px;
+}
+
+.cc .face2_bg{
+	padding: 20px;
+	box-sizing: border-box;
+    margin-top: 50px
+}
+.work{
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.work img{
+	cursor: pointer;
+}
+.front img{
+	position: absolute;
+	z-index: 3;
+    box-shadow: 30px 30px 30px 30px rgba(0,0,0,0.4);
+}
+.back img{
+	position: absolute;
+    box-shadow: 30px 30px 30px 30px rgba(0,0,0,0.4);
+}
+.images{
+	width: 200px;
+	height: 200px;
+}
+#wrap{
+	width: 700px;
+	margin: 52px auto 0;
+	position: relative;
+}
+#showcase{
+	width: 100%;
+	height: 380px;
+}
+#showcase img{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.buttons{
+	text-align: center;
+}
+.font-18{
+	font-size: 18px
+}
+.font-50{
+	font-size: 50px
+}
+.font-25{
+	font-size: 25px
+}
+.damion-r{
+	font-family:Damion-Regular;
+}
+.lato-r{
+	font-family:Lato-Regular;
+}
+@font-face{
+	font-family:Damion-Regular;
+	src:url(./fonts/Damion-Regular.ttf)
+}
+@font-face{
+	font-family:Lato-Regular;
+	src:url(./fonts/Lato-Regular.ttf)
+}

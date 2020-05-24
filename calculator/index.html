@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Claculator</title>
+		<style type="text/css">
+			#calculator{
+				width: 232px;
+				margin: 100px auto;
+			}
+			.w-45{
+				width: 55px;
+				padding: 14px;
+			}
+			.b123{
+				width: 177px;
+				float: left;
+			}
+			.mt-29{
+				margin-top: -49px
+			}
+			.hh{
+				height: 94px
+			}
+			.w-0{
+				width: 114px;
+				padding: 14px;
+			}
+			#rezult{
+				width: 228px;
+    			padding: 7px 0;
+    			border:2px solid #000;
+    			font-size: 25px
+			}
+			#archiv{
+				width: 228px;
+				height: 50px;
+				border: 2px solid #000;
+				opacity: 0
+			}
+			.nshan-sum{
+				position: absolute;
+				top: 335px;
+				right: 582px;
+			}
+			.nshan-min{
+				position: absolute;
+				top: 283px;
+				right: 582px;
+			}
+			.nshan-baz{
+				position: absolute;
+    			top: 236px;
+   				right: 641px;
+			}
+			#archivnum{
+				opacity: 0;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="calculator">			
+			<div id="archiv"></div>
+			<input type="text" id="archivnum"/>
+			<input type="text" id="rezult"/>
+			<div>
+				<button id="ac" class="w-45">AC</button>
+				<button id="bajanac" class="w-45">/</button>
+				<input id="bazmapatkac" class="w-45" type= "button" placeholder="x"><span class="nshan-baz">x</span>
+				<button id="tokos" class="w-45">%</button>
+			</div>
+			<div>
+				<button id="id7" class="w-45" value="7">7</button>
+				<button id="id8" class="w-45" value="8">8</button>
+				<button id="id9" class="w-45" value="9">9</button>
+				<input type="button" id="minus" class="w-45" placeholder="-" /><span class="nshan-min">-</span>
+			</div>
+			<div>
+				<button id="id4" class="w-45" value="4">4</button>
+				<button id="id5" class="w-45" value="5">5</button>
+				<button id="id6" class="w-45" value="6">6</button>
+				<input type="button" id="gumar" class="w-45" placeholder="+" /><span class="nshan-sum">+</span>
+			</div>
+			<div>
+				<div class="b123">
+					<button id="id1" class="w-45 mt" value="1">1</button>
+					<button id="id2" class="w-45 mt" value="2">2</button>
+					<button id="id3" class="w-45 mt" value="3">3</button>
+				</div>
+				<button id="havasar" class="w-45 hh">=</button>
+			</div>
+			<div class="mt-29">
+				<button id="id0" class="w-0" value="0">0</button>
+				<button id="storaket" class="w-45">,</button>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

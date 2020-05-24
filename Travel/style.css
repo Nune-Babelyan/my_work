@@ -1,0 +1,110 @@
+*{
+	transition:all 0.7s ease;
+}
+header{
+	background:#ebebeb
+}
+.travel{
+	border-bottom:5px solid #701dbb;
+	background:#f8f9fa
+}
+.travel:hover{
+	margin-top:-5px;
+	border-bottom:10px solid #701dbb;
+	background:#fff;
+}
+.slayder{
+	position:relative;
+}
+.slayder a{
+	background:#451a4a;
+	position:absolute;
+	top:30%;
+}
+.font-39{
+	font-size:39px
+}
+.font-70{
+	font-size:50px
+}
+.font-12{
+	font-size:12px
+}
+.font-20{
+	font-size:20px
+}
+.font-17{
+	font-size:17px
+}
+.font-36{
+	font-size:36px
+}
+.font-24{
+	font-size:24px
+}
+.font-14{
+	font-size:14px
+}
+.font-30{
+	font-size:30px
+}
+.nexa-b{
+	font-family:Nexa-Black;
+}
+body .logo{
+	color:#6017a3
+}
+.nexa-bold{
+	font-family:Nexa Bold
+}
+.pt-b{
+	font-family:pt-sans-bold;
+}
+h1+p{
+	color:#a161db
+}
+.simple{
+	background:url(./photo/Edit-this-layer.png);
+	background-size:contain;
+	background-repeat:no-repeat
+}
+.on-simple{
+	padding-top:160px
+}
+.started{
+	color:#a161db;
+	padding-bottom:57px
+}
+.circle-icon,.lorem{
+	color:#8f33c4
+}
+.plus{
+	background:#8f33c4;
+	position:absolute;
+	top:0;
+	left:0
+}
+.winning{
+	position:relative
+}
+.line{
+	background:#8f33c4;
+}
+.portfolio{
+	border-right:1px solid #fff
+}
+menu li:hover{
+	border-bottom:2px solid #914dcf
+}
+@font-face{
+	font-family:Nexa-Black;
+	src:url(./fonts/Nexa-Black.otf)
+}
+@font-face{
+	font-family:Nexa Bold;
+	src:url(./fonts/Nexa Bold.otf)
+}
+@font-face{
+	font-family:pt-sans-bold;
+	src:url(./fonts/pt-sans-bold.ttf)
+}

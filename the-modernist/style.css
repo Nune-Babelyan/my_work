@@ -1,0 +1,69 @@
+*{
+	transition:all 0.7s ease
+}
+header{
+	border-top:10px solid #76c38f;
+}
+nav ul li:hover{
+	background:#76c38f;
+	border-radius:10px
+}
+.color-green{
+	color:#76c38f
+}
+.submit{
+	background:#76c38f!important
+}
+.lorem{
+	margin-top:-21px
+}
+header,.slayder{
+	background:#290000
+}
+.arrow{
+	margin-top:150px
+}
+.services{
+	background:#660000
+}
+.inp{
+	background:#222222!important
+}
+.font-28{
+	font-size:28px
+}
+.font-60{
+	font-size:60px;
+}
+.font-11{
+	font-size:11px
+}
+.font-12{
+	font-size:12px;
+}
+.font-46{
+	font-size:46px
+}
+.font-13{
+	font-size:13px
+}
+.font-14{
+	font-size:14px
+}
+.font-16{
+	font-size:16px;
+}
+.font-10{
+	font-size:10px
+}
+body .font-32{
+	font-size:32px
+}
+
+.geargia-r{
+	font-family:Georgia Regular font;
+}
+@font-face{
+	font-family:Georgia Regular font;
+	url:src(./fonts/Georgia Regular font.ttf)
+}

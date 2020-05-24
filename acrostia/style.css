@@ -1,0 +1,159 @@
+*{
+	transition:all 0.7s ease;
+}
+header{
+	background:url(./photo/Layer-2.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+body .font-50{
+	font-size:50px;
+}
+.font-18{
+	font-size:18px
+}
+.font-60{
+	font-size:60px;
+}
+.font-140{
+	font-size:130px
+}
+.font-25{
+	font-size:25px
+}
+.font-100{
+	font-size:100px
+}
+.font-60{
+	font-size:60px
+}
+.font-20{
+	font-size:20px
+}
+.font-14{
+	font-size:14px
+}
+.font-16{
+	font-size:16px
+}
+.font-30{
+	font-size:30px
+}
+.damion-r{
+	font-family:Damion-Regular;
+}
+.lato-r{
+	font-family:Lato-Regular;
+}
+.lato-l{
+	font-family:Lato-Light
+}
+.lato-b{
+	font-family:Lato-Black
+}
+.good-ideas{
+	opacity:0.7
+}
+.in-header{
+	position:relative
+}
+.dzax-icon{
+	position:absolute;
+	left:0;
+	top:45%;
+}
+.aj-icon{
+	position:absolute;
+	right:0;
+	top:45%
+}
+.wrap1{
+	background:url(./photo/Layer-3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.lobortis{
+	color:#ec9da2
+}
+.wrap2{
+	background:url(./photo/Layer-6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.crase{
+	color:#e5d1e3
+}
+.opacity{
+	opacity:0.7
+}
+.meet{
+	position:relative
+}
+.meet:before{
+	content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #28a745;
+    left: 44%;
+    transform: rotate(45deg);
+	bottom:-7px
+}
+.wrap3{
+	background:url(./photo/Layer-14.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.rgba{
+	background:rgba(0,0,0,0.6)
+}
+.hover{
+	position:relative
+}
+.plus{
+	position:absolute;
+	top: 22%;
+    left: 40%;
+}
+.wrap4{
+	background:url(./photo/Layer-24.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+footer{
+	background:#68a097
+}
+.work li:hover{
+	background:#82c8bd
+}
+.all-photography li:hover{
+	background:#f5c149
+}
+.contacts li:hover{
+	background:#a1ca6c
+}
+.about li:hover{
+	background:#91778e
+}
+.services li:hover{
+	background:#df5c64
+}
+.home li:hover{
+	background:#74c7d5
+}
+@font-face{
+	font-family:Damion-Regular;
+	src:url(./fonts/Damion-Regular.ttf)
+}
+@font-face{
+	font-family:Lato-Regular;
+	src:url(./fonts/Lato-Regular.ttf)
+}
+@font-face{
+	font-family:Lato-Light;
+	src:url(./fonts/Lato-Light.ttf)
+}
+@font-face{
+	font-family:Lato-Black;
+	src:url(./fonts/Lato-Black.ttf)
+}

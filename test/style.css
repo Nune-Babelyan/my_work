@@ -1,0 +1,334 @@
+*{
+	margin:0;
+	padding:0;
+	transition:all 0.7s ease
+}
+.clear{
+	clear:both
+}
+.left{
+	float:left
+}
+.right{
+	float:right
+}
+.font-11{
+	font-size:11px
+}
+.font-12{
+	font-size:12px
+}
+.font-14{
+	font-size:14px
+}
+.font-16{
+	font-size:16px
+}
+.font-24{
+	font-size:24px
+}
+body{
+	background:url('./photo/bg.png');
+	width:100%;
+    background-size: cover;
+	height:auto;
+	background-repeat:no-repeat;
+}
+.logo{
+	width:255px;
+	margin:45px auto;
+}
+.menu{
+	width:740px;
+	margin:0 auto;
+}
+menu li{
+	display:inline
+}
+menu li a{
+	color:#fff;	
+}
+.a{
+	margin-right:12px;
+}
+.tw{
+	margin-right:57px
+}
+.wrapper{
+	background:#fff;
+	width:740px;
+	margin:0 auto;
+	border-radius:10px;
+	margin-top:25px;
+	height:auto
+}
+h1{
+	color:#0e4d66;
+	padding-top:50px;
+	margin-left:75px
+}
+.nk{
+	margin-left:75px;
+	width: 195px;
+}
+.data{
+	margin-top:25px;
+}
+.ddd{
+	width: 350px;
+	margin-left:30px
+}
+table{
+	text-align:left;
+	line-height:25px;
+}
+table th{
+	color:#0e4d66;
+	font-family:tahoma
+}
+table td{
+	padding-left:30px;
+	color:#0e4d66;
+	font-family:tahoma
+}
+table td a{
+	text-decoration:none;
+	padding-left:15px;
+	color:#0e4d66;
+	font-family:tahoma;
+}
+.kont{
+	margin-bottom:30px;
+}
+.dannie{
+	margin-left:75px;
+	margin-top:30px;
+	width:620px
+}
+h2{
+	color:#0e4d66;
+	font-family:tahoma;
+}
+h3{
+	color:#0e4d66;
+	font-family:tahoma;
+	margin:30px 0px;
+}
+p{
+	color:#0e4d66;
+	font-family:tahoma;
+	line-height:17px;
+}
+.aa{
+	padding-bottom:30px
+}
+footer{
+	margin-top:50px;
+}
+.foo1{
+	
+	border-top:1px solid #22566e;
+	margin:0 auto;
+}
+.tel a{
+	text-decoration:none;
+	color:#f2b01c;
+	font-family:arial
+}
+.foo{
+	width:740px;
+	margin:0 auto;
+	padding-top:45px
+}
+.tel  h5{
+	text-align: right;
+    width: 256px;
+    margin-top: -22px;
+    color: #f1f1f1;
+    font-family: arial;
+}
+.tel{
+	width: 260px;
+}
+.logo2{
+	width: 180px;
+}
+.logo2 h5{
+	text-align: right;
+    width: 155px;
+    margin-top: -30px;
+}
+.logo2 h5 a{
+    color: #4083a9;
+    font-family: arial;
+}
+.logo2 h6{
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+    color: f1f1f1;
+    color: #f1f1f1;
+    font-family: arial;
+}
+@media screen and (max-width:770px) and (min-width:530px){
+	*{
+		transition:all 0.7s ease
+	}
+	body{
+		background:none
+	}
+	header{
+		background:#0c273e;
+		width:100%
+	}
+	.wrapper{
+		width:90%;
+		margin:0 auto
+	}
+	menu li a{
+		text-align: center
+	}
+	.block{
+		display:block
+	}
+	h1{
+		text-align:center
+	}
+	.nk,.ddd{
+		float:none;
+		margin:0 auto
+	}
+	.ddd{
+		width:100%
+	}
+	table{
+		margin:0 auto
+	}
+	h2{
+		text-align:center;
+	}
+	p{
+		line-height:30px
+	}
+	h5,.dannie,.foo,.menu{
+		width:auto;
+	}
+	.dannie{
+		margin:20px 0
+	}
+	.foo1{
+		width:auto;
+		border:none
+	}
+	footer{
+		width:100%;
+		margin:0 auto;
+		background:#0c273e;
+	}
+	.tel{
+		float:none;
+		width:100%
+	}
+	.tel h5{
+		width:95%
+	}
+	.logo2 h6{
+		width:auto
+	}
+	.font-11{
+		font-size:15px
+	}
+	.font-12{
+		font-size:17px
+	}
+	.font-14{
+		font-size:19px
+	}
+	.font-16{
+		font-size:20px
+	}
+	.font-18{
+		font-size:22px
+	}
+	.font-24{
+		font-size:28px
+	}
+}
+@media screen and (max-width:529px) {
+	*{
+		transition:all 0.7s ease
+	}
+	body{
+		background:none
+	}
+	header{
+		background:#0c273e;
+		width:100%
+	}
+	.wrapper{
+		width:95%;
+		margin:0 auto
+	}
+	menu li a{
+		text-align: center
+	}
+	.block{
+		display:block;
+	}
+	h1{
+		text-align:center;
+		margin-left:0
+	}
+	.nk,.ddd{
+		float:none;
+		margin:0 auto
+	}
+	table{
+		margin:0 auto
+	}
+	h2{
+		text-align:center;
+	}
+	p{
+		line-height:30px
+	}
+	h5,.dannie,.foo,.menu,.ddd{
+		width:auto
+	}
+	.dannie{
+		margin:0
+	}
+	.foo1{
+		width:auto;
+		border:none
+	}
+	footer{
+		width:100%;
+		background:#0c273e;
+	}
+	.tel,.logo2{
+		float:none;
+	    margin: 20px auto;
+	}
+	.tel h5{
+		margin-top:20px
+	}
+	.font-11{
+		font-size:17px
+	}
+	.font-12{
+		font-size:19px
+	}
+	.font-14{
+		font-size:21px
+	}
+	.font-16{
+		font-size:22px
+	}
+	.font-18{
+		font-size:25px
+	}
+	.font-24{
+		font-size:30px
+	}
+}

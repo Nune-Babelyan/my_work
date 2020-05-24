@@ -1,0 +1,114 @@
+*{
+	transition:all 0.7s ease;
+}
+header{
+	background:url(./Images/hero-01.jpg);
+	background-size:cover;
+	position:relative
+}
+.sep-bot{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0
+}
+.offices{
+	background:url(./Images/hero-03.jpg);
+	background-size:cover;
+	position:relative
+}
+.portfolio{
+	background:url(./Images/Overlay.png);
+	/*background-size:cover;*/
+	position:relative
+}
+.iphone{
+	position:relative
+}
+.hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background:blue;
+	opacity:0
+}
+.iphone:hover .hover{
+	opacity:0.5;
+}
+.team2{
+	position:relative
+}
+.team2-hover{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:blue;
+	opacity:0
+}
+.team2:hover .team2-hover{
+	opacity:0.5
+}
+.line-clients{
+	position:relative
+}
+.line-clients:before{
+	content:"";
+	position:absolute;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #17a2b8;
+	right:40%
+}
+.arrow-left{
+	transform:rotate(-90deg)
+}
+.arrow-right{
+	transform:rotate(90deg)
+}
+footer{
+	background:url(./Images/BG.png);
+	background-size:cover;
+	position:relative
+}
+.font-18{
+	font-size:18px;
+}
+.font-13{
+	font-size:13px
+}
+.font-15{
+	font-size:15px
+}
+.font-25{
+	font-size:25px
+}
+.font-20{
+	font-size:20px
+}
+.raleway-medium{
+	font-family:Raleway-Medium;
+}
+.raleway-bold{
+	font-family:Raleway-Bold;
+}
+.raleway-regular{
+	font-family:Raleway-Regular;
+}
+@font-face{
+	font-family:Raleway-Medium;
+	src:url(./Font/Raleway-Medium.otf)
+}
+@font-face{
+	font-family:Raleway-Bold;
+	src:url(./Font/Raleway-Bold.otf)
+}
+@font-face{
+	font-family:Raleway-Regular;
+	src:url(./Font/Raleway-Regular.otf)
+}

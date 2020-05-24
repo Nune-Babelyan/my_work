@@ -1,0 +1,130 @@
+*{
+	transition:all 0.7s ease
+}
+.in-header{
+	background:#8a8a8a
+}
+nav li:hover{
+	background:#00a99d;
+}
+nav li:hover #nav-hover{
+	color:#fff
+}
+.raleway-ex-bold{
+	font-family:Raleway-ExtraBold;
+}
+.raleway-med{
+	font-family:Raleway-Medium
+}
+.Raleway-ExtraBoldItalic{
+	font-family:Raleway-ExtraBoldItalic
+}
+.font-12{
+	font-size:12px;
+}
+.font-13{
+	font-size:13px;
+}
+.font-26{
+	font-size:26px
+}
+.font-20{
+	font-size:20px
+}
+.font-16{
+	font-size:16px
+}
+.font-14{
+	font-size:14px
+}
+.font-10{
+	font-size:10px
+}
+.font-35{
+	font-size:35px
+}
+.font-60{
+	font-size:60px
+}
+.font-80{
+	font-size:80px
+}
+.multipurpose:hover .read-more{
+	background:#00a99d!important;
+	color:#fff!important
+}
+.amazing-features,.what-we-offer,.powerful-skills,.company-facts,.quotes,.clients,.copyright{
+	position:relative;
+}
+.key{
+	position:absolute;
+	bottom: -20px;
+    z-index: 2;
+    transform: rotate(-45deg);
+    right: 48%;
+}
+.archive{
+	position:absolute;
+	top: -20px;
+    z-index: 2;
+    transform: rotate(-45deg);
+    right: 48%;
+}
+.archive i{
+	transform:rotate(45deg)
+}
+.key-icon{
+	transform: rotate(-135deg);
+}
+.prsent{
+	margin-top:-80px
+}
+.items{
+	width:90%
+}
+.link,.facebook{
+	transform:rotate(-45deg)
+}
+.facebook i{
+	transform:rotate(45deg)
+}
+.buttons{
+	padding-top:70px
+}
+.link i{
+	transform:rotate(145deg)
+}
+.arrow-left{
+	position:absolute;
+	top: 50%;
+    left: 64px;
+	z-index:1
+}
+.arrow-right{
+	position:absolute;
+	top: 50%;
+    right: 64px;
+	z-index:1
+}
+.in-footer{
+	background:#383838
+}
+.form{
+	position:relative;
+	margin-top:-300px
+}
+.map{
+	height:400px
+}
+@font-face{
+	font-family:Raleway-ExtraBold;
+	src:url(./fonts/Raleway-ExtraBold.ttf)
+}
+@font-face{
+	font-family:Raleway-Medium;
+	src:url(./photo/Raleway-Medium.ttf)
+}
+@font-face{
+	font-family:Raleway-ExtraBoldItalic;
+	src:url(./fonts/Raleway-ExtraBoldItalic.ttf)
+}
